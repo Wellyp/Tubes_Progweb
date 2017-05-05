@@ -23,6 +23,8 @@ if (!ctype_alnum($user) OR !ctype_alnum($password)){
   echo "Maaf anda tidak dapat melakukan injection"
   ;
 
+  
+  
 }
 
 else{
