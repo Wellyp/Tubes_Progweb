@@ -3,6 +3,8 @@ session_start();
 error_reporting(0);
 include "timeout.php";
 
+
+
 if ($_SESSION[login] == 1) {
     if (!cek_login()) {
         $_SESSION[login] = 0;
